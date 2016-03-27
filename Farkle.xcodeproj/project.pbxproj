@@ -7,25 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		22C0D0841CA70FA400A44437 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C0D0831CA70FA400A44437 /* Player.m */; };
+		22C0D08D1CA72D4900A44437 /* DieButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C0D08C1CA72D4900A44437 /* DieButton.m */; };
 		22DA7F731CA4E06F00AF9E65 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22DA7F721CA4E06F00AF9E65 /* main.m */; };
 		22DA7F761CA4E06F00AF9E65 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22DA7F751CA4E06F00AF9E65 /* AppDelegate.m */; };
-		22DA7F791CA4E06F00AF9E65 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22DA7F781CA4E06F00AF9E65 /* ViewController.m */; };
 		22DA7F7C1CA4E06F00AF9E65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22DA7F7A1CA4E06F00AF9E65 /* Main.storyboard */; };
 		22DA7F7E1CA4E06F00AF9E65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22DA7F7D1CA4E06F00AF9E65 /* Assets.xcassets */; };
 		22DA7F811CA4E06F00AF9E65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22DA7F7F1CA4E06F00AF9E65 /* LaunchScreen.storyboard */; };
+		22DA7F8D1CA4E09C00AF9E65 /* PreGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22DA7F8C1CA4E09C00AF9E65 /* PreGameViewController.m */; };
+		22DA7F901CA4E0AC00AF9E65 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22DA7F8F1CA4E0AC00AF9E65 /* GameViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		22C0D0821CA70FA400A44437 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		22C0D0831CA70FA400A44437 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		22C0D08B1CA72D4900A44437 /* DieButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DieButton.h; sourceTree = "<group>"; };
+		22C0D08C1CA72D4900A44437 /* DieButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DieButton.m; sourceTree = "<group>"; };
 		22DA7F6E1CA4E06F00AF9E65 /* Farkle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Farkle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22DA7F721CA4E06F00AF9E65 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		22DA7F741CA4E06F00AF9E65 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		22DA7F751CA4E06F00AF9E65 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		22DA7F771CA4E06F00AF9E65 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		22DA7F781CA4E06F00AF9E65 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		22DA7F7B1CA4E06F00AF9E65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		22DA7F7D1CA4E06F00AF9E65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		22DA7F801CA4E06F00AF9E65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		22DA7F821CA4E06F00AF9E65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22DA7F8B1CA4E09C00AF9E65 /* PreGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreGameViewController.h; sourceTree = "<group>"; };
+		22DA7F8C1CA4E09C00AF9E65 /* PreGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreGameViewController.m; sourceTree = "<group>"; };
+		22DA7F8E1CA4E0AC00AF9E65 /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		22DA7F8F1CA4E0AC00AF9E65 /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +67,16 @@
 		22DA7F701CA4E06F00AF9E65 /* Farkle */ = {
 			isa = PBXGroup;
 			children = (
+				22DA7F8B1CA4E09C00AF9E65 /* PreGameViewController.h */,
+				22DA7F8C1CA4E09C00AF9E65 /* PreGameViewController.m */,
+				22DA7F8E1CA4E0AC00AF9E65 /* GameViewController.h */,
+				22DA7F8F1CA4E0AC00AF9E65 /* GameViewController.m */,
+				22C0D08B1CA72D4900A44437 /* DieButton.h */,
+				22C0D08C1CA72D4900A44437 /* DieButton.m */,
+				22C0D0821CA70FA400A44437 /* Player.h */,
+				22C0D0831CA70FA400A44437 /* Player.m */,
 				22DA7F741CA4E06F00AF9E65 /* AppDelegate.h */,
 				22DA7F751CA4E06F00AF9E65 /* AppDelegate.m */,
-				22DA7F771CA4E06F00AF9E65 /* ViewController.h */,
-				22DA7F781CA4E06F00AF9E65 /* ViewController.m */,
 				22DA7F7A1CA4E06F00AF9E65 /* Main.storyboard */,
 				22DA7F7D1CA4E06F00AF9E65 /* Assets.xcassets */,
 				22DA7F7F1CA4E06F00AF9E65 /* LaunchScreen.storyboard */,
@@ -150,9 +165,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22DA7F791CA4E06F00AF9E65 /* ViewController.m in Sources */,
+				22C0D08D1CA72D4900A44437 /* DieButton.m in Sources */,
+				22DA7F901CA4E0AC00AF9E65 /* GameViewController.m in Sources */,
 				22DA7F761CA4E06F00AF9E65 /* AppDelegate.m in Sources */,
 				22DA7F731CA4E06F00AF9E65 /* main.m in Sources */,
+				22DA7F8D1CA4E09C00AF9E65 /* PreGameViewController.m in Sources */,
+				22C0D0841CA70FA400A44437 /* Player.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,6 +319,7 @@
 				22DA7F871CA4E06F00AF9E65 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
