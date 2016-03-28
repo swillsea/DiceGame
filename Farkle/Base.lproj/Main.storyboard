@@ -282,7 +282,7 @@
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mKK-K7-kSY">
                                 <rect key="frame" x="49" y="564" width="132" height="60"/>
-                                <color key="backgroundColor" red="0.046120412360000002" green="0.2720675736" blue="0.45098039220000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="1" green="0.55164754230000002" blue="0.17267167959999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="17"/>
                                 <state key="normal" title="Roll">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -293,7 +293,7 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dOz-0T-1uD">
                                 <rect key="frame" x="204" y="564" width="135" height="60"/>
-                                <color key="backgroundColor" red="0.046120412360000002" green="0.2720675736" blue="0.45098039220000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="1" green="0.55164754230000002" blue="0.17267167959999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="17"/>
                                 <state key="normal" title="Finish round">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>

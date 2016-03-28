@@ -37,7 +37,7 @@
 
 @implementation GameViewController
 
-#pragma setup game
+#pragma mark Setup game
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -87,7 +87,7 @@
 }
 
 
-#pragma roll, reset, and select dice
+#pragma mark Roll, Reset, and Select dice
 
 - (IBAction)onRollButtonPressed:(UIButton *)sender {
     [self rollDice];
@@ -151,7 +151,7 @@
 }
 
 
-#pragma didFarkle, finishRound and nextPlayer
+#pragma mark DidFarkle, FinishRound & NextPlayer
 
 -(void)didFarkle {
     [self resetDiceSelection];
@@ -189,7 +189,7 @@
     self.playerTurnLabel.text = [NSString stringWithFormat:@"%@'s Turn", player.playerName];
 }
 
-#pragma calculate scores and update score labels
+#pragma mark Calculate scores & Update score labels
 
 -(void)calculateScores {
     NSCountedSet *selectedDiceSet = [NSCountedSet new];
@@ -221,7 +221,7 @@
         self.temporaryScore += 400;
     }
     if([selectedDiceSet countForObject:[NSNumber numberWithInt:5]] >= 3) {
-        self.temporaryScore += 500;
+        self.temporaryScore += 350;
     }
     if([selectedDiceSet countForObject:[NSNumber numberWithInt:6]] >= 3) {
         self.temporaryScore += 600;
