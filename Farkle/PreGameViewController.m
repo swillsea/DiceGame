@@ -30,20 +30,20 @@
     
     //sets up entry fields for players
     [self.playerOneTextField becomeFirstResponder];
-    self.playerTwoTextField.hidden = YES;
+    self.playerTwoTextField.hidden   = YES;
     self.playerThreeTextField.hidden = YES;
-    self.playerFourTextField.hidden = YES;
+    self.playerFourTextField.hidden  = YES;
     
     //creates player instances
-    self.playerOne = [Player new];
-    self.playerTwo = [Player new];
+    self.playerOne   = [Player new];
+    self.playerTwo   = [Player new];
     self.playerThree = [Player new];
-    self.playerFour = [Player new];
+    self.playerFour  = [Player new];
     
     //creates play button appearance
-    self.playButton.layer.cornerRadius = 5;
+    self.playButton.layer.cornerRadius  = 5;
     self.playButton.layer.masksToBounds = YES;
-    self.playButton.hidden = YES;
+    self.playButton.hidden              = YES;
     
 }
 
@@ -52,7 +52,7 @@
     [textField resignFirstResponder];
     if (self.playerTwoTextField.hidden) {
         self.playerTwoTextField.hidden = NO;
-        self.playButton.hidden = NO;
+        self.playButton.hidden         = NO;
     } else if (self.playerThreeTextField.hidden) {
         self.playerThreeTextField.hidden = NO;
     } else if (self.playerFourTextField.hidden) {
@@ -61,10 +61,10 @@
     }
     
     //sets all the player names correctly
-    self.playerOne.playerName = self.playerOneTextField.text;
-    self.playerTwo.playerName = self.playerTwoTextField.text;
+    self.playerOne.playerName   = self.playerOneTextField.text;
+    self.playerTwo.playerName   = self.playerTwoTextField.text;
     self.playerThree.playerName = self.playerThreeTextField.text;
-    self.playerFour.playerName = self.playerFourTextField.text;
+    self.playerFour.playerName  = self.playerFourTextField.text;
     
     return NO;
 }
@@ -73,10 +73,10 @@
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     GameViewController *gameVC = segue.destinationViewController;
     
-    gameVC.playerOne = self.playerOne;
-    gameVC.playerTwo = self.playerTwo;
+    gameVC.playerOne   = self.playerOne;
+    gameVC.playerTwo   = self.playerTwo;
     gameVC.playerThree = self.playerThree;
-    gameVC.playerFour = self.playerFour;
+    gameVC.playerFour  = self.playerFour;
 
 
 }
