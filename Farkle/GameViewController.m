@@ -42,12 +42,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.playerOne.playerScore = 0;
-    self.playerTwo.playerScore = 0;
+    self.playerOne.playerScore   = 0;
+    self.playerTwo.playerScore   = 0;
     self.playerThree.playerScore = 0;
-    self.playerFour.playerScore = 0;
-    self.numberOfDiceSelected = 0;
-    self.temporaryScore = 0;
+    self.playerFour.playerScore  = 0;
+    self.numberOfDiceSelected    = 0;
+    self.temporaryScore          = 0;
 
     [self setupPlayers];
     [self updateScoreLabels];
@@ -120,10 +120,10 @@
     //checks for Farkles
     if(([unselectedDiceSet countForObject:[NSNumber numberWithInt:1]] == 0) &&
        ([unselectedDiceSet countForObject:[NSNumber numberWithInt:5]] == 0) &&
-       ([unselectedDiceSet countForObject:[NSNumber numberWithInt:2]] < 3)  &&
-       ([unselectedDiceSet countForObject:[NSNumber numberWithInt:3]] < 3)  &&
-       ([unselectedDiceSet countForObject:[NSNumber numberWithInt:4]] < 3)  &&
-       ([unselectedDiceSet countForObject:[NSNumber numberWithInt:6]] < 3)  ){
+       ([unselectedDiceSet countForObject:[NSNumber numberWithInt:2]] <  3) &&
+       ([unselectedDiceSet countForObject:[NSNumber numberWithInt:3]] <  3) &&
+       ([unselectedDiceSet countForObject:[NSNumber numberWithInt:4]] <  3) &&
+       ([unselectedDiceSet countForObject:[NSNumber numberWithInt:6]] <  3) ){
         [self didFarkle];
     }
     
@@ -157,9 +157,9 @@
     [self resetDiceSelection];
     [self rollDice];
     
-     Player *player = [self.playersArray objectAtIndex:self.currentPlayerIndexValue];
+    Player *player          = [self.playersArray objectAtIndex:self.currentPlayerIndexValue];
     self.farkleLable.hidden = NO;
-    self.farkleLable.text = [NSString stringWithFormat:@"%@ Farkled!", player.playerName];
+    self.farkleLable.text   = [NSString stringWithFormat:@"%@ Farkled!", player.playerName];
     
     [self goToNextPlayer];
 
@@ -237,16 +237,16 @@
     
     //updates appropriate labels
     if (self.playerOne.isPlaying){
-        self.playerOneScoreLabel.text = [NSString stringWithFormat:@"%@ Score: %i", self.playerOne.playerName, self.playerOne.playerScore];
+        self.playerOneScoreLabel.text   = [NSString stringWithFormat:@"%@ Score: %i", self.playerOne.playerName, self.playerOne.playerScore];
     }
     if (self.playerTwo.isPlaying) {
-        self.playerTwoScoreLabel.text = [NSString stringWithFormat:@"%@ Score: %i", self.playerTwo.playerName, self.playerTwo.playerScore];
+        self.playerTwoScoreLabel.text   = [NSString stringWithFormat:@"%@ Score: %i", self.playerTwo.playerName, self.playerTwo.playerScore];
     }
     if (self.playerThree.isPlaying) {
         self.playerThreeScoreLabel.text = [NSString stringWithFormat:@"%@ Score: %i", self.playerThree.playerName, self.playerThree.playerScore];
     }
     if (self.playerFour.isPlaying) {
-        self.playerFourScoreLabel.text = [NSString stringWithFormat:@"%@ Score: %i", self.playerFour.playerName, self.playerFour.playerScore];
+        self.playerFourScoreLabel.text  = [NSString stringWithFormat:@"%@ Score: %i", self.playerFour.playerName, self.playerFour.playerScore];
     }
     
 }
